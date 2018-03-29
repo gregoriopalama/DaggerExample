@@ -12,7 +12,7 @@ import dagger.android.AndroidInjectionModule;
  * @author Gregorio Palamà
  */
 
-@Component(modules={AppModule.class, AndroidInjectionModule.class})
+@Component(modules={AppModule.class, AndroidInjectionModule.class, ActivityModule.class})
 public interface AppComponent {
     @Component.Builder
     interface Builder {

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DaggerExample</string>
+
+    <string name="hello_dagger">Hello Dagger!</string>
+</resources>
